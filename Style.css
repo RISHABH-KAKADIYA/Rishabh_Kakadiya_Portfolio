@@ -1,4 +1,4 @@
-/* Reset some defaults */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,10 +16,8 @@ body {
   line-height: 1.6;
 }
 
+/* === Navigation Bar === */
 
-/* Header container now only contains nav */
-/* === Navigation Bar === */
-/* === Navigation Bar === */
 header {
     position: sticky;
     top: 0;
@@ -34,7 +32,7 @@ header {
     margin: auto;
     padding: 20px 30px;
     display: flex;
-    justify-content: space-between; /* This places logo left and nav right */
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -226,7 +224,6 @@ nav ul li a {
 }
 
 /* Skills Section */
-/* Container styling */
 #skills {
   padding: 80px 20px;
   background: linear-gradient(135deg, #1a1a1a);
@@ -245,7 +242,6 @@ nav ul li a {
   color: #4f94d7;
 }
 
-/* Skills container - flex layout */
 .skills-container {
   display: flex;
   justify-content: center;
@@ -287,7 +283,7 @@ nav ul li a {
   font-weight: 600;
   font-size: 13px;
   white-space: nowrap;
-  opacity: 0.2;           /* hidden initially */
+  opacity: 0.2;          
   pointer-events: none; /* avoid interaction when hidden */
   transition: all 0.3s ease;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
